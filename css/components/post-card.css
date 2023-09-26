@@ -1,0 +1,25 @@
+
+.posts-section .posts-blocks .post-card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    padding: 20px 0;
+}
+.posts-section .posts-blocks .post-card .img-cont{
+    margin: 20px 0;
+}
+.posts-section .posts-blocks .post-card>*{
+    margin-bottom: 10px;
+}
+.posts-section .posts-blocks .post-card .img-cont{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 3px;
+}
+
+.posts-section .posts-blocks .post-card .img-cont{
+    max-height: 100%
+}

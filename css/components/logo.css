@@ -1,0 +1,25 @@
+.logo {
+    display: inline-block;
+    width: 177px;
+   height: auto;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1024px) {
+    
+    .logo{
+        width: 160px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 130px;
+        height: auto;
+    }
+}

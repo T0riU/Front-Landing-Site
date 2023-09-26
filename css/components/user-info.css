@@ -1,0 +1,28 @@
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center ;
+    height:40px;
+}
+ .user-info .user-img{
+    height:100%;
+    width:auto;
+    margin: 5px;
+}
+.user-date{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+.user-name
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #475467;
+}

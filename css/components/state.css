@@ -1,0 +1,63 @@
+
+.state {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 10px;  
+}
+.state.lg-state {
+    padding: 0 28px;
+    border-radius: 5px;
+    width: 246px;
+    text-transform: uppercase;
+}
+.state.sm-state {
+    border-radius: 160px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+
+.state.brown {
+    color: #FDB0AB;
+    background: #142A31;
+}
+
+.state.green
+{
+    color: #027A48;
+    background: #ECFDF3;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .state {
+        font-size: 13px;
+    }
+    .state.lg-state {
+        padding: 0 20px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .state {
+        font-size: 11px;
+    }
+    .state.lg-state {
+        padding: 0 0 0 10px;
+        width: 180px;
+    }
+    .state.sm-state {
+        padding: 1px;
+
+        line-height: 14px;
+    }
+    
+
+}

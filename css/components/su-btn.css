@@ -1,0 +1,33 @@
+.su-btns{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+  
+}
+.su-btns .signup-btn {
+    margin: 10px 0;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .su-btns .signup-btn {
+        margin: 7px 0;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .su-btns .signup-btn {
+        margin: 5px 0;
+        width: 180px;
+    }
+
+}

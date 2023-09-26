@@ -1,0 +1,38 @@
+.posts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px;
+    
+    justify-content: space-around;
+}
+
+.posts-section .posts-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1 0 0;
+    
+}
+.posts-section .posts-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+    
+}
+.posts-section>* {
+   padding: 10px 0;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+.posts-section .posts-title {
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+}}
